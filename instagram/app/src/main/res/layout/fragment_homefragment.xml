@@ -8,12 +8,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/bar"
-        android:background="">
+        android:background="@drawable/button_background">
         <androidx.appcompat.widget.Toolbar
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/toolbar"
-            android:background="">
+            android:background="@drawable/button_background">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -24,7 +24,7 @@
                 android:layout_height="30dp"
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/Capture"/>
+                android:src="@drawable/capture"/>
 
         </RelativeLayout>
         </androidx.appcompat.widget.Toolbar>
