@@ -10,12 +10,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/appbar"
-        android:background="">
+        android:background="@drawable/capture">
         <androidx.appcompat.widget.Toolbar
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/toolbar"
-            android:background="">
+            android:background="@drawable/button_background">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -53,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_gravity="center"
-            android:src="@drawable/Capture"
+            android:src="@drawable/capture"
             android:scaleType="centerInside"
             android:id="@+id/imageAdd">
         </ImageView>
