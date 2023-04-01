@@ -29,6 +29,11 @@
         android:hint="Password"
         android:padding="20dp"
         android:id="@+id/password_login" />
+    <ProgressBar
+        android:id="@+id/progessBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -42,8 +47,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="15dp"
-        android:hint="Login?"
-        android:id="@+id/register_user"/>
+        android:hint="@string/Register"
+        android:id="@+id/register_Now"/>
 
 
 
