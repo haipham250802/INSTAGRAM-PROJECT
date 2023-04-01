@@ -27,6 +27,7 @@ public class SearchFragment extends Fragment {
     private String mParam2;
 
     public SearchFragment() {
+
         // Required empty public constructor
     }
 
