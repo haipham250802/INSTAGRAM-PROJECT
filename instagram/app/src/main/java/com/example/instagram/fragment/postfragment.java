@@ -9,5 +9,4 @@ import com.example.instagram.R;
 
 public class postfragment extends Fragment {
 
-
 }

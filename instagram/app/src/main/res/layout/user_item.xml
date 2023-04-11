@@ -23,7 +23,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button_Profile"
+        android:id="@+id/buttonFollowItem"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_alignParentEnd="true"
@@ -31,6 +31,7 @@
         android:text="FOLLOW" />
 
     <TextView
+        android:id="@+id/usernameItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="19dp"
@@ -41,6 +42,7 @@
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/fullnameItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="19dp"

@@ -203,7 +203,6 @@
                     android:id="@+id/my_pictures_saved"
                     android:src="@mipmap/ic_search"
                     style="?android:attr/buttonBarButtonStyle" />
-
             </LinearLayout>
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
